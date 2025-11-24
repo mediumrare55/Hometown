@@ -1,0 +1,51 @@
+/* body{
+    background-color: lightskyblue;
+} */
+
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+
+body{
+    background-color: rgb(223, 207, 239);
+}
+
+h1{
+    color: blueviolet;
+}
+
+div {
+    background-color: white;
+    width:70%;
+    margin:auto;
+    box-shadow: 0 0 10px 1px rgba(0,0,0,0.3);
+    /* По оси Х,по оси Y,радиус размытия,размер тени,параметр цвета с прозрачностью*/
+    padding:50px
+}
+
+img{
+   max-width:1300px;
+    height:auto;
+    width:100%;
+    display:block;
+    margin:auto;
+    padding-top:10px ;
+    padding-bottom: 10px;
+}
+p{
+
+font-size:22px;
+font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+line-height: 1.65;
+/*font-size* line-height=фактическая высота строки*/
+}
+h1{
+    font-size: 48px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    /*text-align-center-выравнивание текста по центру*/
+    padding-bottom: 40px;
+    /*padding-bottom-внутренний отступ снизу*/ ;
+}

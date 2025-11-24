@@ -1,0 +1,96 @@
+*{
+padding:0;
+margin:0;
+box-sizing: border-box;
+}
+
+
+
+
+h1{
+    width: 100%;
+    font-size: 200px;
+    text-align: center;
+    margin: auto;
+    background: url(../img/1.jpg);
+    font-size: 120px;
+    color:transparent;
+    -webkit-background-clip: text;
+    animation: animate 10s infinite linear;
+}
+   
+@keyframes animate{
+    from{
+        background-position: 0 0;
+    }
+    to{
+        background-position: 100% 100%;
+    }
+}
+        
+    
+   
+
+
+
+body{
+    background-color:rgb(223, 207, 239);
+    font-family: 'Caveat', cursive;
+    }
+
+main{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+    width: 70%;
+    padding: 50px;
+    margin: auto;
+    justify-content: center;
+    box-shadow: 0 0 10px 1px rgba(0,0,0,0.3);
+}
+.photo{
+    width: calc(50% - 40px);
+    height: calc((35vw - 40px) / 16*9);
+    margin: 20px;
+    background-color: rgb(223, 207, 239);   
+    transition: all 0.5s ease;
+    box-shadow: 0 0 10px 1px rgba(0,0,0, 0.2);
+}
+
+.photo:hover{
+    transform: rotate(3deg) scale(1.07);
+    box-shadow: 0 0 40px 1px rgba(0,0,0, 0.7);;
+}
+
+.photo1{
+    background-image: url(../img/omsk.jpg);
+}
+
+.photo2{
+    background-image: url(../img/omsk1.jpg);
+}
+
+.photo3{
+    background-image: url(../img/omsk2.jpg);
+}
+
+.photo4{
+    background-image: url(../img/omsk3.jpg);
+}
+
+.photo5{
+    background-image: url(../img/omsk4.jpg);
+}
+
+.photo6{
+    background-image: url(../img/omsk5.jpg);
+}
+
+.photo7{
+    background-image: url(../img/omsk6.jpg);
+}
+
+.photo8{
+    background-image: url(../img/omsk7.jpg);
+}
+
